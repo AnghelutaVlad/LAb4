@@ -12,3 +12,5 @@ void addAtBeginning(Node **head, Data v);
 void addAtEnd(Node** head, Data v);
 void display(Node *head);
 void modify(Node*head,Data k);
+void functiontime(Node**head,Data k);
+void addandmodify(Node**head,Data k);
