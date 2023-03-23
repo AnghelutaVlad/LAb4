@@ -30,4 +30,10 @@ void display(Node *head)
 	}
 	printf("\n");
 }
-
+void modify(Node *head,Data k)
+{
+    Node *p=head;
+    for(int i=0;i<k;i++)
+        p=p->next;
+    scanf("%d",&p->val);
+}

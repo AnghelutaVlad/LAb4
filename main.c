@@ -1,9 +1,10 @@
 #include "liste.h"
 int main()
 {
-    Node* head;
-    Data m=2,n=3;
-    addAtBeginning(&head,m);
-    addAtEnd(&head,n);
+    Node* head=NULL;
+    Data n=5,k=3;
+    for(Data i=0;i<n;i++)
+        addAtEnd(&head,i);
+    modify(head,k);
     display(head);
 }
